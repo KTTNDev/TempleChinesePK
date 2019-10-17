@@ -1,8 +1,7 @@
 {
-  "name": "newnew1",
-  "app_id": "",
-  "type": "ionic-angular",
+  "name": "ShrineNavigation",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "ionic-angular"
 }

@@ -1,0 +1,270 @@
+{
+  "placelist" : {
+    "-LT_Nj0vjssdLFCqlS8y" : {
+      "detail" : "ตึกวิทยาลัยนานาชาติ",
+      "floor" : 1,
+      "latlng" : "7.9100933,98.3871616",
+      "name" : "ตึกวิทยาลัยนานาชาติ"
+    },"dasdasdsa" :{
+
+      "latitude":7.910033 ,
+      "longitude":98.388305 ,
+      "name": "ตึกศูนย์ภาษา" ,
+      "content": "ตึกศูนย์ภาษา"
+  
+    },
+    
+    "-LT_No9tvvGwUIEM7qsQ" : {
+      "detail" : "8เหลี่ยม",
+      "floor" : 1,
+      "latlng" : "7.9102737,98.3867710",
+      "name" : "8เหลี่ยม"
+    },
+    "-LT_OGMtmn926SbMhlrw" : {
+      "detail" : "ตึกดนตรีเก่า",
+      "floor" : 1,
+      "latlng" : "7.9111042,98.3864981",
+      "name" : "ตึกดนตรีเก่า",
+      "url" : "1"
+    },
+    "-LT_OJ_tNnFCk6O8yu9f" : {
+      "detail" : "ตึกดนตรี",
+      "floor" : 1,
+      "latlng" : "7.9112032,98.3861823",
+      "name" : "ตึกดนตรี",
+      "url" : "1"
+    },
+    "-LT_OLltmA1ntndGj46t" : {
+      "detail" : "ตึกคหกรรมเก่า",
+      "floor" : 1,
+      "latlng" : "7.9111823,98.3868046",
+      "name" : "ตึกคหกรรมเก่า",
+      "url" : "1"
+    },
+    "-LT_OO1txigkaUhmxfxU" : {
+      "detail" : "ตึกคหกรรมศาสตร์",
+      "floor" : 1,
+      "latlng" : "7.9115349,98.3865260",
+      "name" : "ตึกคหกรรมศาสตร์",
+      "url" : "1"
+    },
+    "-LT_bmtgGbJZNXZHOZwh" : {
+      "detail" : "หอประชุมเล็ก",
+      "floor" : 1,
+      "latlng" : "7.9105446,98.3865005",
+      "name" : "หอประชุมเล็ก",
+      "url" : "1"
+    },
+    "-LT_brfXe_-BdWx7pq9c" : {
+      "detail" : "อาคาร9",
+      "floor" : 1,
+      "latlng" : "7.9104341,98.3862336",
+      "name" : "อาคาร9",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/dbsmpkru.appspot.com/o/files%2Fpkru-alumni.jpg?alt=media&token=f466992d-8c8e-4f73-bb02-62a804703a6d"
+    },
+    "-LT_cGzl3jrDHsw2krWj" : {
+      "detail" : "สนามกีฬา",
+      "floor" : 1,
+      "latlng" : "7.9124060,98.3853796",
+      "name" : "สนามกีฬา",
+      "url" : "1"
+    },
+    "-LT_cJCXilNF9fX2yEUS" : {
+      "detail" : "โรงยิม",
+      "floor" : 1,
+      "latlng" : "7.9114536,98.3873008",
+      "name" : "โรงยิม",
+      "url" : "1"
+    },
+    "-LT_cOAlTXqBE5OSUbYY" : {
+      "detail" : "ตึกศูนย์ภาษา",
+      "floor" : 1,
+      "latlng" : "7.9100126,98.3882570",
+      "name" : "ตึกศูนย์ภาษา",
+      "url" : "1"
+    },
+    "-LT_cS11VRXlphW6N-Pn" : {
+      "detail" : "ตึก200ล้าน",
+      "floor" : 1,
+      "latlng" : "7.9111245,98.3886597",
+      "name" : "ตึก200ล้าน",
+      "url" : "1"
+    },
+    "-LT_cUvm2GN8dcAWgVMH" : {
+      "detail" : "อาคารฝึกประสบการณ์วิชาชีพ วจก.",
+      "floor" : 1,
+      "latlng" : "7.9120859,98.3876176",
+      "name" : "อาคารฝึกประสบการณ์วิชาชีพวจก.",
+      "url" : "1"
+    },
+    "-LT_cXJYwbywCOX14UjF" : {
+      "detail" : "ตึกวจก.ใหม่",
+      "floor" : 1,
+      "latlng" : "7.9129171,98.3868626",
+      "name" : "ตึก19",
+      "url" : "1"
+    },
+    "-LT_ciJefk3SgFHLPT-2" : {
+      "detail" : "ตึกเกษตร",
+      "floor" : 1,
+      "latlng" : "7.9145559,98.3877591",
+      "name" : "ตึกเกษตร",
+      "url" : "1"
+    },
+    "-LT_cl_I0HK7lo7cOurq" : {
+      "detail" : "อาคารอุตสาหกรรม",
+      "floor" : 1,
+      "latlng" : "7.9149029,98.3892759",
+      "name" : "อาคารอุตสาหกรรม",
+      "url" : "ๅ"
+    },
+    "-LT_cu22e7Ec0m8Vcrq7" : {
+      "detail" : "อาคารจอดรถ8ชั้นข้างตึกอุตสาหกรรม",
+      "floor" : 1,
+      "latlng" : "7.9150836,98.3897265",
+      "name" : "อาคารจอดรถ8ชั้นข้างตึกอุตสาหกรรม",
+      "url" : "ๅ"
+    },
+    "-LT_czZhQ9VAM-LuSLuz" : {
+      "detail" : "อาคารสาธารณสุข",
+      "floor" : 1,
+      "latlng" : "7.9155372,98.3891968",
+      "name" : "อาคารสาธารณสุข",
+      "url" : "ๅ"
+    },
+    "-LT_d3oZVUt2EPuF845t" : {
+      "detail" : "ศูนย์วิทยาศาสต์ ใหม่",
+      "floor" : 1,
+      "latlng" : "7.9150271,98.3887203",
+      "name" : "อาคาร 20",
+      "url" : "ๅ"
+    },
+    "-LT_dAZh4kyxnXhFb6TN" : {
+      "detail" : "อาคารครุศาสตร์",
+      "floor" : 1,
+      "latlng" : "7.9158371,98.3886975",
+      "name" : "อาคาร 16",
+      "url" : "ๅ"
+    },
+    "-LT_dFCpNQ1deYW9gPv0" : {
+      "detail" : "อาคารอนุบาลสาธิต",
+      "floor" : 1,
+      "latlng" : "7.9086923,98.3881142",
+      "name" : "อาคารอนุบาลสาธิต",
+      "url" : "ๅ"
+    },
+    "-LT_dcsD1KRHYpkM-7QY" : {
+      "detail" : "อาคาร 6",
+      "floor" : 1,
+      "latlng" : "7.9085448,98.3883385",
+      "name" : "อาคาร 6",
+      "url" : "ๅ"
+    },
+    "-LT_gmD-6sduGctGy_hj" : {
+      "detail" : "อาคาร 5",
+      "floor" : 1,
+      "latlng" : "7.9081008,98.3875144",
+      "name" : "อาคาร 5",
+      "url" : "ๅ"
+    },
+    "-LT_gti6-ApoNMDXDvpg" : {
+      "detail" : "อาคาร 4",
+      "floor" : 1,
+      "latlng" : "7.9082934,98.3881296",
+      "name" : "อาคาร 4",
+      "url" : "ๅ"
+    },
+    "-LT_h6ejtgMx7IA8aroC" : {
+      "detail" : "อาคารมนุษยศาสตร์",
+      "floor" : 1,
+      "latlng" : "7.9086508,98.3872555",
+      "name" : "อาคาร 2 ",
+      "url" : "ๅ"
+    },
+    "-LT_hBJjBic0cP2iXJbq" : {
+      "detail" : "อาคาร 1 ",
+      "floor" : 1,
+      "latlng" : "7.9090333,98.3874161",
+      "name" : "อาคาร 1 ",
+      "url" : "ๅ"
+    },
+    "-LT_hGQtvhOHblbf5JnU" : {
+      "detail" : "อาคารนิติศาสตร์",
+      "floor" : 1,
+      "latlng" : "7.9090197,98.3877812",
+      "name" : "อาคาร 7",
+      "url" : "ๅ"
+    },
+    "-LT_hJ_7v0vpwVd7C-7R" : {
+      "detail" : "Librarycafe'",
+      "floor" : 1,
+      "latlng" : "7.9092625,98.3865498",
+      "name" : "Librarycafe'",
+      "url" : "ๅ"
+    },
+    "-LT_hOXkC370Bo3bARJN" : {
+      "detail" : "อาคารระวิจันทร์",
+      "floor" : 1,
+      "latlng" : "7.9092814,98.3865005",
+      "name" : "อาคารระวิจันทร์",
+      "url" : "ๅ"
+    },
+    "-LT_hSRsZch03-OsePpS" : {
+      "detail" : "อาคาร 8",
+      "floor" : 1,
+      "latlng" : "7.9095673,98.3863509",
+      "name" : "อาคาร 8",
+      "url" : "ๅ"
+    },
+    "-LT_hXO1D9ED9ntoFJre" : {
+      "detail" : "อาคาร 10",
+      "floor" : 1,
+      "latlng" : "7.9085634,98.3859882",
+      "name" : "อาคาร 10",
+      "url" : "ๅ"
+    },
+    "-LT_jQNbKjfpmuONvHHX" : {
+      "detail" : "อาคารระวิจันทร์",
+      "floor" : 1,
+      "latlng" : "7.9092814,98.3865005",
+      "name" : "อาคารระวิจันทร์",
+      "url" : "ๅ"
+    },
+    "-LT_jUufVy-ObX7yYEKx" : {
+      "detail" : "อาคาร 10",
+      "floor" : 1,
+      "latlng" : "7.9085634,98.3859882",
+      "name" : "อาคาร 10",
+      "url" : "ๅ"
+    },
+    "-LT_jYWf8QKu9YYYyc9W" : {
+      "detail" : "ศูนย์ศิลปวัฒนธรรมจังหวัดภูเก็ต\t",
+      "floor" : 1,
+      "latlng" : "7.9091506,98.3859402",
+      "name" : "ศูนย์ศิลปวัฒนธรรมจังหวัดภูเก็ต\t",
+      "url" : "ๅ"
+    },
+    "-LT_j_fQmS5M8qYPeL-4" : {
+      "detail" : "ห้องสมุดเก่านิติ",
+      "floor" : 1,
+      "latlng" : "7.9081035,98.3868924",
+      "name" : "ห้องสมุดเก่านิติ",
+      "url" : "ๅ"
+    },
+    "-LT_jjCxagPida6wNsEC" : {
+      "detail" : "อาคารศิลปะการแสดง",
+      "floor" : 1,
+      "latlng" : "7.9105476,98.3849968",
+      "name" : "โรงละคร",
+      "url" : "ๅ"
+    }
+  },
+  "type3" : {
+    "id1" : {
+      "detail" : "ไม่รู้",
+      "floor" : 2,
+      "name" : "ตึก",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/dbsmpkru.appspot.com/o/files%2Freceived_250865562324405.png?alt=media&token=425cfc7e-b03a-44c2-aa29-c9f07fc35da7"
+    }
+  }
+}

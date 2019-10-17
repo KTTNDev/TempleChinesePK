@@ -1,0 +1,30 @@
+
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Shrine Navigation
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+  <ion-content padding class="card-background-page" >
+    <ion-list>
+        <ion-item >
+          <ion-label>เลือกศาลเจ้า</ion-label>
+          <ion-select [(ngModel)]="destination">
+            <ion-option *ngFor="let item of placeListRef$ | async" value="{{ item.latlng }}">{{ item.name }}</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-label>ตำแหน่งต้นทาง</ion-label>
+          <ion-select [(ngModel)]="start">
+            <ion-option value="">ตำแหน่งปัจจุบัน (current location)</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+                <ion-buttons end>
+          <button color="danger" ion-button (click)="navigate()"><ion-icon name='navigate' color="light"></ion-icon>เริ่มนำทาง</button>
+       </ion-buttons>
+        </ion-item>
+      </ion-list>
+      <div #map id="map"></div>
+  </ion-content>

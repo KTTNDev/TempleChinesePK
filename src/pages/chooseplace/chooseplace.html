@@ -1,0 +1,79 @@
+<ion-header>
+
+    <ion-navbar color="danger">
+      <ion-title>
+        Shrine Navigation
+      </ion-title>
+    </ion-navbar>
+
+  
+
+    <ion-toolbar no-border-top  >
+      <ion-segment color="danger"  [(ngModel)]="pet">
+        <ion-segment-button value="P1">
+        อำเภอเมือง   
+        </ion-segment-button>
+        <ion-segment-button value="P2">
+        อำเภอกระทู้
+        </ion-segment-button>
+        <ion-segment-button value="P3">
+        อำเภอถลาง
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="cards-bg" >
+   <div class="bg"  color = "light">
+    <div [ngSwitch]="pet" class="bg">
+      <ion-list *ngSwitchCase="'P1'">
+          <ion-item *ngFor="let item of placeListRef$ | async" >
+              <ion-avatar item-start>
+                <img src="{{ item.url }}">
+              </ion-avatar>
+            <h2>{{ item.name }}</h2>
+            <p></p>
+            <button   detail-push navPush="NewdetailPage" [navParams]="{item: item}" ion-button clear item-end>View</button>
+        
+            </ion-item>
+          </ion-list>
+    </div>
+  
+  
+  
+    <div [ngSwitch]="pet">
+      <ion-list *ngSwitchCase="'P2'">
+
+
+        <ion-item *ngFor="let item of placeList1Ref$ | async" >
+          <ion-avatar item-start>
+            <img src="{{ item.url }}">
+          </ion-avatar>
+        <h2>{{ item.name }}</h2>
+        <p></p>
+        <button   detail-push navPush="NewdetailPage" [navParams]="{item: item}" ion-button clear item-end>View</button>
+    
+        </ion-item>
+      </ion-list>
+  
+        </div>
+  
+  
+    <div [ngSwitch]="pet">
+      <ion-list *ngSwitchCase="'P3'">
+        <ion-item *ngFor="let item of placeList3Ref$ | async" >
+          <ion-avatar item-start>
+              <img src="{{ item.url }}">
+          </ion-avatar>
+        <h2>{{ item.name }}</h2>
+        <p></p>
+        <button   detail-push navPush="NewdetailPage" [navParams]="{item: item}" ion-button clear item-end>View</button>
+    
+        </ion-item>
+      </ion-list>
+        </div>
+  </div>
+  </ion-content>
+  
+
+

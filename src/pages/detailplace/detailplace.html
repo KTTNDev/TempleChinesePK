@@ -1,0 +1,59 @@
+<ion-header>
+    <ion-navbar>
+        <ion-buttons end>
+        <button ion-button icon-only (click)="dismiss()">
+        </button>  
+        </ion-buttons>
+      </ion-navbar>
+  </ion-header>
+  
+  ======
+  <ion-content class="cards-bg" >
+    
+
+
+    <div>
+    <ion-slides class="image-slider" style="width : 100% ; height : 100% "loop="true" autoplay="3000" speed="2000" >
+        <ion-slide *ngFor="let img of images">
+      <ion-input readonly [(ngModel)]="placelist.url"></ion-input>
+
+        </ion-slide>
+      </ion-slides>
+      <div class="p-3 mb-2 bg-dark text-white" >
+      <ion-input readonly [(ngModel)]="placelist.name"></ion-input>
+      </div>
+    
+          <ion-toolbar no-border-top  >
+              <ion-segment [(ngModel)]="pet">
+                <ion-segment-button value="P1">
+                    <ion-icon  md="md-call"></ion-icon> 
+                </ion-segment-button>
+                |
+                <ion-segment-button value="P2">
+                <ion-icon ios="ios-images" md="md-images"></ion-icon>
+                </ion-segment-button>
+                |
+                <ion-segment-button value="P3">
+                <ion-icon ios="ios-star" md="md-star"></ion-icon>
+                </ion-segment-button>
+              </ion-segment>
+            </ion-toolbar>
+      </div>
+      <div #map id="map"></div>
+      <ion-item>
+        <ion-icon color="subtle" large item-start name='ios-paper-outline'></ion-icon>
+        <ion-label>ชื่อสถานที่ : </ion-label>
+        <ion-input readonly [(ngModel)]="placelist.name"></ion-input>
+        </ion-item>
+    <ion-item>
+        <ion-icon color="subtle" large item-start name='information-circledrive'></ion-icon>
+        <ion-label>จำนวนชั้น : </ion-label>
+        <ion-input readonly [(ngModel)]="placelist.floor"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon color="subtle" large item-start name='ios-paper-outline'></ion-icon>
+      <ion-label>พิกัด : </ion-label>
+      <ion-input readonly [(ngModel)]="placelist.detail">sdsd</ion-input>
+    </ion-item>
+  </ion-content>
+  

@@ -1,14 +1,37 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-header>
+    <ion-navbar color="danger">
+      <ion-title>
+        Shrine Navigation
+      </ion-title>
+    </ion-navbar>
+
+  
+
+  </ion-header>
+  <ion-content class="card-background-page">
+<ion-list >
+    <ion-item>
+     <br>
+          <ion-card>
+            <img (click)="historyshrinePage()" src="assets/imgs/shrine0.jpg"/>
+            <div (click)="historyshrinePage()" class="card-title">ประวัติกินเจภูเก็ต</div>
+            <div class="card-subtitle"></div>
+          </ion-card>
+          
+          <ion-card>
+              <img (click)="traditionPage()" src="assets/imgs/shrine1.jpg"/>
+              <div (click)="traditionPage()" class="card-title">พิธีกรรมทั้ง 9 </div>
+              <div class="card-subtitle"></div>
+            </ion-card>
+         
+          <ion-card>
+              <img (click)="rulePage()" src="assets/imgs/shrine2.jpg"/>
+              <div (click)="rulePage()" class="card-title">ข้อควรปฏิบัติ</div>
+              <div class="card-subtitle"></div>
+            </ion-card>
+
+        
+    </ion-item>
+  </ion-list>
 </ion-content>

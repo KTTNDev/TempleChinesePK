@@ -34,13 +34,30 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    rgb(255, 141, 19),
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  add2:       rgb(34, 129, 254),
+  add3:       #ffffff,
+  yellow1:     rgb(247, 190, 6),
+  oreage:     rgba(224, 99, 99, 0.842),
+  green:      rgba(36, 248, 54, 0.938),
+  gray:       rgba(163, 162, 162, 0.747),
+
 );
 
+$tabs-md-background: color($colors, primary);
+
+
+$tabs-md-background: color($colors, primary) ;
+$tabs-md-tab-color-active: color($colors, light);
+$tabs-md-tab-color: color($colors, light);
+$tabs-md-tab-text-color: color($colors, light);
+
+$tabs-md-background-color:color($colors, primary);
+$tabs-md-text-color: color($colors, light);
 
 // App iOS Variables
 // --------------------------------------------------
@@ -86,3 +103,9 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+@import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('https://fonts.googleapis.com/css?family=Athiti');
